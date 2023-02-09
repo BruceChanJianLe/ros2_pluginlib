@@ -1,0 +1,5 @@
+<library path="feature_two">
+  <class type="feature_two::FeatureTwoPlugin" base_class_type="base_plugin::BasePlugin">
+    <description>This is feature two plugin.</description>
+  </class>
+</library>
