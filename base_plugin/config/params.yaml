@@ -1,0 +1,13 @@
+/**:
+   ros__parameters:
+    plugins: ["feature_one", "feature_two"]
+
+    feature_one:
+      plugin: "feature_one::FeatureOnePlugin"
+      length: 100.0
+      enabled: true
+
+    feature_two:
+      plugin: "feature_two::FeatureTwoPlugin"
+      length: 100.0
+      enabled: true
