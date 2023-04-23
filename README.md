@@ -154,7 +154,7 @@ set(dependencies
   base_plugin
 )
 
-# TO THIS
+# DO THIS
 add_library(
   feature_one SHARED
   src/feature_one_plugin.cpp
@@ -167,7 +167,7 @@ ament_target_dependencies(
 
 # INSTALL
 # Install feature_one
-# TO THIS
+# DO THIS
 install(
   TARGETS feature_one
   EXPORT export_${PROJECT_NAME}
@@ -179,7 +179,7 @@ install(FILES plugins.xml
   DESTINATION share/${PROJECT_NAME}
 )
 
-# TO THIS
+# DO THIS
 pluginlib_export_plugin_description_file(base_plugin plugins.xml)
 
 
@@ -194,7 +194,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-# TO THIS
+# DO THIS
 ament_export_libraries(feature_one)
 ament_export_targets(export_${PROJECT_NAME})
 ament_package()
